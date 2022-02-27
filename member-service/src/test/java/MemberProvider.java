@@ -5,7 +5,7 @@ import java.io.IOException;
 public class MemberProvider {
     public static void main(String[] args) throws IOException {
 
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("/spring/spring-dubbo.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("/spring/spring-context.xml");
         context.start();
 
         System.out.println("-----dubbo开启-----");
