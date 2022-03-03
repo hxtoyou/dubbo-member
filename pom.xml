@@ -200,7 +200,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>MemberProvider</mainClass>
+                            <mainClass>com.hx.MemberProvider</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
